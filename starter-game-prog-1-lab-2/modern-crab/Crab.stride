@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="Crab" extends="Actor" extends-java="Actor" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors/>
+    <methods>
+        <comment xml:space="preserve">(World, Actor, GreenfootImage, Greenfoot and MouseInfo)</comment>
+        <method access="public" type="void" type-java="void" name="act" enable="true">
+            <javadoc xml:space="preserve">Act - do whatever the Crab wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.</javadoc>
+            <params/>
+            <throws/>
+            <body/>
+        </method>
+    </methods>
+</class>
