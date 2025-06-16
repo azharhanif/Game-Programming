@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Matrix2D
+comment1.params=
+comment1.target=Matrix2D()
+comment2.params=v
+comment2.target=Vector2D\ transform(Vector2D)
+comment3.params=p
+comment3.target=Point2D\ transform(Point2D)
+comment4.params=t
+comment4.target=Matrix2D\ translation(Vector2D)
+comment5.params=factor
+comment5.target=Matrix2D\ scaling(double)
+comment6.params=angleDegrees
+comment6.target=Matrix2D\ rotation(double)
+comment7.params=lhs\ rhs
+comment7.target=Matrix2D\ concatenate(Matrix2D,\ Matrix2D)
+comment8.params=cameraCenter\ cameraWidth\ windowSize
+comment8.target=Matrix2D\ worldToWindow(Point2D,\ double,\ Vector2D)
+comment9.params=cameraCenter\ cameraWidth\ windowSize
+comment9.target=Matrix2D\ windowToWorld(Point2D,\ double,\ Vector2D)
+numComments=10

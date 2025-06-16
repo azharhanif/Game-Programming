@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=SimulationWorld
+comment1.params=windowWidth\ windowHeight\ cameraCenter\ cameraWidth
+comment1.target=SimulationWorld(int,\ int,\ Point2D,\ double)
+comment10.params=windowCoord
+comment10.target=Vector2D\ windowToWorld(Vector2D)
+comment11.params=
+comment11.target=void\ scaleActors()
+comment12.params=
+comment12.target=double\ getZoomRatio()
+comment2.params=
+comment2.target=void\ started()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=double\ getTimeStepDuration()
+comment5.params=worldValue
+comment5.target=double\ worldToWindow(double)
+comment6.params=worldCoord
+comment6.target=Point2D\ worldToWindow(Point2D)
+comment7.params=worldCoord
+comment7.target=Vector2D\ worldToWindow(Vector2D)
+comment8.params=windowValue
+comment8.target=double\ windowToWorld(double)
+comment9.params=windowCoord
+comment9.target=Point2D\ windowToWorld(Point2D)
+numComments=13

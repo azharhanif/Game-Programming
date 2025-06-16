@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Vector2D
+comment1.params=x\ y
+comment1.target=Vector2D(double,\ double)
+comment10.params=v\ value
+comment10.target=Vector2D\ multiply(Vector2D,\ double)
+comment11.params=v1\ v2
+comment11.target=double\ dot(Vector2D,\ Vector2D)
+comment2.params=
+comment2.target=double\ getX()
+comment3.params=
+comment3.target=double\ getY()
+comment4.params=value
+comment4.target=void\ setX(double)
+comment5.params=value
+comment5.target=void\ setY(double)
+comment6.params=
+comment6.target=void\ negate()
+comment7.params=
+comment7.target=double\ magnitude()
+comment8.params=
+comment8.target=void\ normalize()
+comment9.params=v1\ v2
+comment9.target=Vector2D\ add(Vector2D,\ Vector2D)
+numComments=12
