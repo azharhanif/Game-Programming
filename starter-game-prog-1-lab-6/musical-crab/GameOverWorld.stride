@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="GameOverWorld" extends="World" extends-java="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class GameOverWorld.</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="560,560,1" params-java="560, 560, 1"/>
+            <body>
+                <call expression="showTextWithBigBlackFont(&quot;Game Over&quot;,180,200)" expression-java="showTextWithBigBlackFont(&quot;Game Over&quot;, 180, 200)" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="public" type="void" type-java="void" name="showTextWithBigBlackFont" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params>
+                <param type="String" type-java="String" name="message"/>
+                <param type="int" type-java="int" name="x"/>
+                <param type="int" type-java="int" name="y"/>
+            </params>
+            <throws/>
+            <body>
+                <variable type="GreenfootImage" type-java="GreenfootImage" name="bg" value="getBackground()" value-java="getBackground()" enable="true"/>
+                <variable type="Font" type-java="Font" name="font" value="new Font(50)" value-java=" new Font(50)" enable="true"/>
+                <call expression="bg.setFont(font)" expression-java="bg.setFont(font)" enable="true"/>
+                <call expression="bg.setColor(Color.BLACK)" expression-java="bg.setColor(Color.BLACK)" enable="true"/>
+                <call expression="bg.drawString(message,x,y)" expression-java="bg.drawString(message, x, y)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
