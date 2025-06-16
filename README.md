@@ -1,3 +1,3 @@
-# Game Programming 1 - Fall 2024 - Vanier
+# Game Programming 1 - Fall 2025 - Vanier
 
-This repository contains materials for Game Programming 1 course Fall 2024.
+This repository contains materials for Game Programming 1 course Fall 2025.
