@@ -1,0 +1,45 @@
+Specific to the Game Programming course:
+Show the steps, to download my project files from the public git hub folder of the teacher's repository to my computer, complete the lab/assignment, and then upload the folder to my own repository
+
+Let’s break it into clear, step-by-step instructions so you can:
+Download (clone) your teacher’s repository
+Work on the assignment locally
+Upload (push) your finished work to your own repository
+
+🔹 Step 1: Download Teacher’s Repository
+Go to your teacher’s GitHub repository page.
+Click the green “Code” button → copy the HTTPS link (it looks like https://github.com/teachername/repository.git).
+On your computer, open a terminal (or Git Bash).
+Navigate to the folder where you want to save the project:
+cd Documents/School/Assignments
+Clone the teacher’s repository:
+git clone https://github.com/teachername/repository.git
+This will download the entire repo into a new folder.
+
+🔹 Step 2: Work on the Assignment
+Enter the project folder:
+cd repository
+Open the folder in your code editor (e.g., Greenfoot).
+Make your changes and complete the assignment.
+Save all files. Upload in Omnivox Lab/Assignment section as instructed by the teacher
+
+🔹 Step 3: Create Your Own Repository on GitHub
+Go to GitHub.
+Click “New” → create a repository (give it a name like my-assignment-1).
+Don’t initialize with README (to avoid conflicts).
+Copy the repository URL (looks like https://github.com/yourname/my-assignment-1.git).
+
+🔹 Step 4: Push Your Work to Your Repository
+In the terminal, inside your project folder, remove the link to the teacher’s repo:
+git remote remove origin
+Add your own repository as the new “origin”:
+git remote add origin https://github.com/yourname/my-assignment-1.git
+Stage all changes:
+git add .
+Commit your work:
+git commit -m "Completed assignment 1"
+Push to your GitHub:
+git push -u origin main
+(If your branch is called master, replace main with master.)
+
+Now your assignment is uploaded to your own GitHub repository, separate from the teacher’s!
